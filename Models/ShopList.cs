@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using SQLite;
 namespace Mocanu_Raluca_Lab7.Models
 {
-    class ShopList
+    public class ShopList
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
